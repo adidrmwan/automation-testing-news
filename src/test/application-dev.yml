@@ -1,0 +1,11 @@
+spring:
+  profiles: dev
+
+config:
+  web:
+    baseUrl: https://www.kumparan.com
+
+user:
+  customer:
+    email: adidrmwan17@gmail.com
+    password: Password!2
