@@ -77,4 +77,8 @@ public class BasePageObject {
     public void goTo(String url) {
         getDriver().get(url);
     }
+
+    public String getCurrentUrl() {
+        return getDriver().getCurrentUrl();
+    }
 }
